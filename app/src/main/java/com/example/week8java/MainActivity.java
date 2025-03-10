@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         int firstNumber = valueOf(inputFirstNumber);
         int secondNumber = valueOf(inputSecondNumber);
         textResult.setText(String.valueOf(firstNumber+secondNumber));
-        //
     }
     public void minus(View view){
         int firstNumber = valueOf(inputFirstNumber);
